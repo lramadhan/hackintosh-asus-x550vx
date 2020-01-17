@@ -47,17 +47,17 @@ I can't show you the step, but it's ez af. But disable boot security first!
 Q: Audio is not working?
 A: Try to change `layout-id` value. Use **Hackintool** for knowing the availabe layout, and try it first by inserting boot argument `alcid=layout-id`. If it works, put it into properti preferences in `config.plist` using **Clover Configurator**
 
-Q: Wifi detected but cannot found any SSID.
-A: Try to remove `AirPortAtheros40.kext`, `ATH9KInjector.kext`, `IO80211Family.kext`. And then, inject via **Kext Droplet**, and insert it into **S/L/E**.
+* Q: Wifi detected but cannot found any SSID.
+* A: Try to remove `AirPortAtheros40.kext`, `ATH9KInjector.kext`, `IO80211Family.kext`. And then, inject via **Kext Droplet**, and insert it into **S/L/E**.
 
-Q: Wifi is on and detecting the SSID, but the nearest SSID has low signal.
-A: If it works, it's okay.
+* Q: Wifi is on and detecting the SSID, but the nearest SSID has low signal.
+* A: If it works, it's okay.
 
-Q: Is HDMI works?
-A: Yes, tested.
+* Q: Is HDMI works?
+* A: Yes, tested.
 
-Q: What about sleep or hibernate?
-A: Still don't know.
+* Q: What about sleep or hibernate?
+* A: Still don't know.
 
-Q: Is power management on?
-A: Make sure that `config.plist/acpi/ssdt` is setled `plugintype=1`
+* Q: Is power management on?
+* A: Make sure that `config.plist/acpi/ssdt` is setled `plugintype=1`
